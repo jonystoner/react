@@ -6,6 +6,10 @@ module.exports = {
   theme: {
     colors: {
       ...defaultColors,
+      rosa:{
+        200:"#b19cd9"
+
+      },
       orange: {
         400: "#ea7c52",
         500: "#FF6932",
