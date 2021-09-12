@@ -1,13 +1,16 @@
 import {ListaDeNotas} from "./components/ListaDeNotas"
 import Formulario from "./components/Formulario"
-import CardNota from "./components/CardNota"
+
 
 function App() {
   return (
-    <section>
-      <Formulario/>
-      <ListaDeNotas />
-      <CardNota/>
+    <section className="flex flex-row w-screen mx-5">
+      <div className="flex flex-row h-full w-5/12"> 
+        <Formulario/>
+      </div>
+      <div className="flex flex-row my-16 w-6/12"> 
+        <ListaDeNotas />  
+      </div>    
     </section>
   );
 }
